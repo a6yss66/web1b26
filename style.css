@@ -2,40 +2,55 @@
 
 body {
   background-color: #c0c0c0;
-
+  font-family: 'notosans';
+  text-align: center;
 }
+
 h1 {
   font: size 18px;
   border: 6px double #8e6bad;
   border-radius: 20px;
-  padding: 30px 50px;
-  margin: 40px auto;
+  padding:0px 50px;
+  margin: 50px auto;
   width: 500px;
-  text-align: center;
 }
 
-b {
+em {
   font: size 18px;
   border-radius: 20px;
   padding: 30px 50px;
 }
+
 h3 {
   font: size 18px;
   border: 3px solid #8e6bad;
   border-radius: 20px;
   padding: 30px 50px;
-  text-align: center;
+  margin: 40px auto;
+  width: 150px;
+}
+
+h4 {
+  font: size 18px;
+  border: 
+  border-radius: 20px;
+  padding: 30px 50px;
   margin: 40px auto;
   width: 150px;
 }
 
 em {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 2cm;
+  margin-bottom: 10px;
+  border: 5px dotted #666666;
+}
+
+p{
+  margin: 40px auto;
 }
 
 a {
@@ -43,18 +58,31 @@ a {
   display: block;
   padding: 20px 0;
   border-radius: 40px;
-  color: #ffffff;
+  color: #f8f1ff;
   font-weight: bold;
 }
 
 ul {
-  text-align: center;
   margin-bottom: 20px;
   width: 300px;
   margin: auto;
 }
 
-li {
+table, tr, li {
   margin-bottom: 20px;
 }
 
+dt
+{
+  margin-right: 100px;
+}
+
+dd
+{
+  margin-left: 100px;
+}
+
+ol, th, td
+{
+  text-align: center;
+}
