@@ -1,13 +1,20 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
 
 body {
-  background-color: #c0c0c0;
-  font-family: 'notosans';
-  text-align: center;
+  background-image: url(../image/2.png);
+  background-size: contain;
+  font-family: "Diphylleia", Arial, "Nanum Gothic", Helvetica, sans-serif;
+    text-align: center;
+    font-style: normal;
+    color: #333;
 }
 
 h1 {
-  font: size 18px;
+  font: size 32px;
+      font-style: bold;
+    color: #eaeaea;
+    background-image: url(../image/1.jpg);
   border: 6px double #8e6bad;
   border-radius: 20px;
   padding:10px 50px;
@@ -17,9 +24,11 @@ h1 {
 
 h2{
   font: size 18px;
+  : 3px solid #8e6bad;
+  border-radius: 20px;
   padding: 15px 50px;
   margin: 100px auto;
-  width: 500px;
+  width: 450px;
 }
 
 em {
@@ -30,6 +39,8 @@ em {
 
 h3 {
   font: size 18px;
+  color: #eaeaea;
+    background-image: url(../image/1.jpg);
   border: 3px solid #8e6bad;
   border-radius: 20px;
   padding: 15px 50px;
@@ -52,7 +63,6 @@ em {
 img {
   border-radius: 2cm;
   margin-bottom: 10px;
-  border: 5px dotted #666666;
 }
 
 p{
@@ -60,15 +70,18 @@ p{
 }
 
 a {
-  background-image: ;
   display: block;
   padding: 20px 0;
   border-radius: 40px;
   color: #f8f1ff;
   font-weight: bold;
 }
+ul{
+  width: 300px;
+  margin: 0 auto;
+}
 
-ul, li {
+li {
   margin-bottom: 20px;
   width: 300px;
   margin: auto;
