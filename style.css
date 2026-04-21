@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
 
 body {
-  background-image: url(../image/2.png);
+  background-image: url(image/2.png);
   background-size: contain;
   font-family: "Diphylleia", Arial, "Nanum Gothic", Helvetica, sans-serif;
     text-align: center;
@@ -14,7 +14,7 @@ h1 {
   font: size 32px;
       font-style: bold;
     color: #eaeaea;
-    background-image: url(../image/1.jpg);
+    background-image: url(image/1.jpg);
   border: 6px double #8e6bad;
   border-radius: 20px;
   padding:10px 50px;
