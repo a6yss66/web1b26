@@ -68,6 +68,7 @@ main {
 /* aside */
 aside {
   flex-basis: 284px;
+text-align: left
 }
   aside nav {
     border-radius: 16px;
